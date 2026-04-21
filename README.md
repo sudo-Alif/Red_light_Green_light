@@ -56,9 +56,8 @@ time runs out to win.
 
 ## 📦 Installation & Setup
 
-1.  Clone the repository: git clone
-    https://github.com/your-username/red-light-green-light-3d.git\
-    cd red-light-green-light-3d
+1.  Clone the repository: git clone https://github.com/Alif-Al-Fahim/Red_light_Green_light.git
+cd Red_light_Green_light
 
 2.  Install dependencies: pip install -r requirements.txt
 
