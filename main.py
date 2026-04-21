@@ -473,8 +473,8 @@ def draw_player():
 def draw_coin(x, y, z):
     glPushMatrix()
     glTranslatef(x, y, z)
-    rotation_angle = (time.time() * 90) % 360
-    glRotatef(rotation_angle, 0, 0, 1)
+    # rotation_angle = (time.time() * 90) % 360
+    # glRotatef(rotation_angle, 0, 0, 1)
 
     set_material_color(1.0, 0.82, 0.0, shininess=60)
     q = gluNewQuadric()
@@ -675,7 +675,7 @@ def keyboardListener(key, x, y):
         print("First-person" if camera_mode == 1 else "Third-person")
 
 def keyboardUpListener(key, x, y):
-    """Track key RELEASE — this was completely missing before."""
+    
     global key_w, key_s, key_a, key_d
     if key == b'w':
         key_w = False
